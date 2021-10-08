@@ -1,3 +1,8 @@
+'''
+This is a simple python gui ip geoloaction tool,
+I was learning how to use pysimplegui and wanted
+to work with an api so i made this.
+'''
 import PySimpleGUI as sg
 import requests, json
 
