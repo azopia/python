@@ -1,0 +1,14 @@
+{
+    "admin": [
+        "password",
+        "admin@email.com",
+        "True",
+        "ADMIN"
+    ],
+    "newuser": [
+        "password123",
+        "newperson123@protonmail.com",
+        "False",
+        "pSD3YsJ1YljCayuIt9bnACBwK"
+    ]
+}
