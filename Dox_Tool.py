@@ -1,3 +1,8 @@
+'''
+This was a joke i made to make fun of a dox tool my friend who cannot code made.
+It has functionality and im sure some 14 year old xbox kid can make use of this,
+so i leave it to you guys to have
+'''
 import time, os, colorama, requests, json, webbrowser
 from colorama import Fore, Back, Style, init
 
