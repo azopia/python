@@ -301,7 +301,7 @@ def banner():
 {CYAN}██████{BLUE}╔╝╚{CYAN}██████{BLUE}╔╝{CYAN}██{BLUE}╔╝ {CYAN}██{BLUE}╗   {CYAN}██{BLUE}║   ╚{CYAN}██████{BLUE}╔╝╚{CYAN}██████{BLUE}╔╝{CYAN}███████{BLUE}╗
 {BLUE}╚═════╝  ╚═════╝ ╚═╝  ╚═╝   ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝
 """)
-	print(f'		{Fore.GREEN}+ {CYAN}Made By Pynx{BLUE}#{CYAN}0001 {RED}<3 {Fore.GREEN}+')
+	print(f'		{Fore.GREEN}+ {CYAN}Made By Azopia{BLUE}#{CYAN}0001 {RED}<3 {Fore.GREEN}+')
 
 def options():
 	print(f"""
