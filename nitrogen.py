@@ -1,7 +1,11 @@
-import discord, random, time, requests
 
-token = "ODY3ODc2NzEyODUwMTI4OTA3.YPnfLA.0UwMHvFzCaR1S3BBvQq257NjiE0"
-client = commands.Bot(command_prefix = "gimme ")
+'''
+This is a "nitro generator" it wont actually give you all real codes,
+you may get a few but you would have to click on them individually.
+Maybe try making a function that checks them via requests and only
+sends active codes or sum idk have fun.
+'''
+import random
 
 @client.command()
 async def nitro(ctx, amount: int = 20):
@@ -14,5 +18,3 @@ async def nitro(ctx, amount: int = 20):
 			num = num + 1
 		except:
 			pass
-
-client.run(token)
