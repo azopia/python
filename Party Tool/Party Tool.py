@@ -78,7 +78,7 @@ def auth():
 				f.write(auth_mgr.oauth.json())
 
 			xbl_client = XboxLiveClient(auth_mgr)
-			profile = await xbl_client.profile.get_profile_by_gamertag("Kyraqq")
+			profile = await xbl_client.profile.get_profile_by_gamertag("username")
 			print('Profile under SomeGamertag gamer tag:')
 			print(profile)
 			print()
@@ -88,7 +88,7 @@ def auth():
 			print(friendslist)
 			print()
 
-			presence = await xbl_client.presence.get_presence_batch(["2533274794093122", "2533274807551369"])
+			presence = await xbl_client.presence.get_presence_batch(["", ""])
 			print('Statuses of some random players by XUID:')
 			print(presence)
 			print()
@@ -148,7 +148,7 @@ def auth():
 
 
 def tcp_ping(host, port):
-	r = requests.get(f'http://107.172.141.135/PyPr/api.php?&host={host}&port={port}')
+	r = requests.get(f'http://ip/PyPr/api.php?&host={host}&port={port}')
 	res = r.text.strip()
 	pscan = [[sg.Text(f'Pinging {host} on Port {port}')],
 			 [sg.Text(res)]]
