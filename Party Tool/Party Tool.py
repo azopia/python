@@ -1,3 +1,8 @@
+'''
+This is an incomplete concept for a python gui xbox party tool.
+I never got to finishing the xbox auth or set up any of the actual cool stuff,
+but the user system and register system works with a full auth_key system
+'''
 import PySimpleGUI as sg
 import requests, json, random, nmap, argparse, os, asyncio, webbrowser
 from aiohttp import ClientSession, web
